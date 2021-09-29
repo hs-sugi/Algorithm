@@ -1,0 +1,17 @@
+def solution(numbers):
+    sumlist = []
+    for i in range(len(numbers)):
+        for j in range(0,10):
+            if numbers[i] == j:
+                sumlist.append(numbers[i])
+    answer = 45 - sum(sumlist)
+    return answer
+    
+ 
+ 
+ 
+#### 다른 사람 풀이 ####
+def solution(numbers):
+    return 45 - sum(numbers)
+    
+#내가 생각한 흐름이랑 똑같은데..난 너무 길고 불필요한 코드가 많다..
